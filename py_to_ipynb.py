@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # In[8]:
 
@@ -46,7 +45,7 @@ filename = str(input('Please give the name of the .py file to be parsed to ipynb
 # In[11]:
 
 
-filestr = open(filename,'r').read()
+filestr = open(filename,'r', encoding="utf-8").read()
 
 
 # In[12]:
